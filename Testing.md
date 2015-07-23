@@ -5,15 +5,15 @@ Foo HP
 22 July 2015
 
 
-PURPOSE : To describe the variables, the data and any transformations or work performed to clean up the data
+**PURPOSE** : To describe the variables, the data and any transformations or work performed to clean up the data
 
     
 
-INPUT DATA : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**INPUT DATA** : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Download the input data into  the current directory and unzip the folder as getdata-projectfiles-UCI HAR Dataset
 	  
-STEPS PERFORMED, TO CLEAN THE DATA :
+**STEPS PERFORMED, TO CLEAN THE DATA :**
 
 1)  Use read.table to read the following files from getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset folder:
 
@@ -59,7 +59,7 @@ STEPS PERFORMED, TO CLEAN THE DATA :
 8) Output the second Tidy dataset as a txt file "MergedData.txt" in the current working directory
 
 
-VARIABLES
+**VARIABLES**
 
 xtest       :	2947 obs of 561 variables
 
@@ -92,7 +92,7 @@ MergedDFM   :  679734 obs of 4 variables   (Intermediate variable created using 
 MergedData  :     180 obs of 68 variables
 
 
-DETAILS ON THE OUTPUT DATA
+**DETAILS ON THE OUTPUT DATA**
 
 MergedData is a  180 X 68 data frame.
 
@@ -106,6 +106,7 @@ The second column : 	 "Activity" contains characters describing the 6 kinds of a
 
  
 Column 3 to Column 68 : 
+
 			"tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" .........  
          
  			"fBodyBodyGyroMag-mean()"     "fBodyBodyGyroMag-std()"  
@@ -262,14 +263,14 @@ Column 3 to Column 68 :
  $ fBodyBodyGyroJerkMag-std() : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
 
 
-OUTPUT FILE :  "MergedData.txt" was created as a txt file 
+**OUTPUT FILE** :  "MergedData.txt" was created as a txt file 
 
 To read the output file "MergedData.txt", use the following : 
  
 read.table("MergedData.txt",header=TRUE)
 
 
-References : 
+**References :** 
 
 https://class.coursera.org/getdata-030/forum/thread?thread_id=37
 
