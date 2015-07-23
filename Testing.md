@@ -1,13 +1,10 @@
-## Getting & Cleaning Data Course Project  Code Book 
+## Getting & Cleaning Data Course Project  
+### **Code Book** 
 
-Foo HP
-
-22 July 2015
 
 
 **PURPOSE** : To describe the variables, the data and any transformations or work performed to clean up the data
-
-    
+ 
 
 **INPUT DATA** : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -50,13 +47,13 @@ Download the input data into  the current directory and unzip the folder as getd
 
 5) Appropriately label the data set with descriptive variable names
 
-6) Create  a dataset (MergedDF) containing only the measurements on mean() and std() with 
+6) Create  a data set **MergedDF** containing only the measurements on mean() and std() with 
    descriptive activity names and descriptive variable names
 
-7) Creates a second, independent tidy data set (MergedData) with the
+7) Creates a second, independent tidy data set **MergedData** with the
    average of each measurement variable for each activity and each subject
 
-8) Output the second Tidy dataset as a txt file "MergedData.txt" in the current working directory
+8) Output the second Tidy data set as a txt file "MergedData.txt" in the current working directory
 
 
 **VARIABLES**
@@ -265,12 +262,17 @@ Column 3 to Column 68 :
 
 **OUTPUT FILE** :  "MergedData.txt" was created as a txt file 
 
-To read the output file "MergedData.txt", use the following : 
+To read the output file **"MergedData.txt"**, do the following :
+
+1. Download the "MergedData.txt" file to your working directory  
  
-read.table("MergedData.txt",header=TRUE)
+2. read.table("MergedData.txt",header=TRUE)
+ 
+ 
 
 
-**References :** 
+
+**REFERENCES :** 
 
 https://class.coursera.org/getdata-030/forum/thread?thread_id=37
 
