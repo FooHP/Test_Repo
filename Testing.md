@@ -1,6 +1,7 @@
 ## Getting & Cleaning Data Course Project  Code Book 
 
 Foo HP
+
 22 July 2015
 
 
@@ -10,7 +11,7 @@ PURPOSE : To describe the variables, the data and any transformations or work pe
 
 INPUT DATA : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-	  Download the input data into  the current directory and unzip the folder as getdata-projectfiles-UCI HAR Dataset
+Download the input data into  the current directory and unzip the folder as getdata-projectfiles-UCI HAR Dataset
 	  
 STEPS PERFORMED, TO CLEAN THE DATA :
 
@@ -43,7 +44,7 @@ STEPS PERFORMED, TO CLEAN THE DATA :
 
 	ytestrain   :   contains Activity data  
 
-3) Extracts only the measurements on mean() and std() into xtestrainR variable  
+3) Extracts only the measurements on mean() and std() into **xtestrainR**  
  
 4) Uses descriptive activity names to name the activities in the data set
 
@@ -55,7 +56,7 @@ STEPS PERFORMED, TO CLEAN THE DATA :
 7) Creates a second, independent tidy data set (MergedData) with the
    average of each measurement variable for each activity and each subject
 
-8) Output the second Tidy dataset as a txt file "MergedData.txt" in the current directory
+8) Output the second Tidy dataset as a txt file "MergedData.txt" in the current working directory
 
 
 VARIABLES
@@ -104,7 +105,8 @@ The second column : 	 "Activity" contains characters describing the 6 kinds of a
 		    	 LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS 
 
  
-Column 3 to Column 68 : "tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" .........  
+Column 3 to Column 68 : 
+			"tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" .........  
          
  			"fBodyBodyGyroMag-mean()"     "fBodyBodyGyroMag-std()"  
  
