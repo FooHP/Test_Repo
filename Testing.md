@@ -1,5 +1,7 @@
 ## Getting & Cleaning Data Course Project  
+
 ### **Code Book** 
+
 
 
 
@@ -9,6 +11,7 @@
 **INPUT DATA** : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Download the input data into  the current directory and unzip the folder as getdata-projectfiles-UCI HAR Dataset
+
 	  
 **STEPS PERFORMED, TO CLEAN THE DATA :**
 
@@ -53,7 +56,7 @@ Download the input data into  the current directory and unzip the folder as getd
 7) Creates a second, independent tidy data set **MergedData** with the
    average of each measurement variable for each activity and each subject
 
-8) Output the second Tidy data set as a txt file "MergedData.txt" in the current working directory
+8) Output the second Tidy data set as a txt file **"MergedData.txt"** in the current working directory
 
 
 **VARIABLES**
@@ -95,9 +98,9 @@ MergedData is a  180 X 68 data frame.
 
 The first  column : 	 "Subject" - The identifier of the Subject who carried out the experiment.
 
- 		      	 It contains integers that range from 1 to 30 
+ 		      	 It contains integers that range from [1 to 30] 
 
-The second column : 	 "Activity" contains characters describing the 6 kinds of activity : 
+The second column : 	 "Activity" contains characters describing the 6 types of activity : 
 
 		    	 LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS 
 
@@ -116,12 +119,17 @@ Column 3 to Column 68 :
 
 			average of each measurement for each activity and each subject
 
-			Their value range from -1 to 1 exclusive.
+			Their value range from (-1 to 1) 
    			
 
 
 
 -------------------------------------------------------------------------------------------------
+
+str(MergedData)
+
+'data.frame':	180 obs. of  68 variables:
+
 
  $ Subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
 
@@ -277,3 +285,4 @@ To read the output file **"MergedData.txt"**, do the following :
 https://class.coursera.org/getdata-030/forum/thread?thread_id=37
 
 https://class.coursera.org/getdata-030/forum/thread?thread_id=107
+

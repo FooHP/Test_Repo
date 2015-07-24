@@ -1,8 +1,9 @@
-## Getting & Cleaning Data Course Project  README.md
+## Getting & Cleaning Data Course Project  
 
-Foo HP
+### **README.md**
 
-22 July 2015
+
+
 
 **PURPOSE** : To explain how run_analysis.R Script works
 
@@ -10,7 +11,7 @@ Foo HP
 
 Download the input data into  the current working directory and unzip the folder as getdata-projectfiles-UCI HAR Dataset
 
-**This script performs the following :**	  
+**The run_analysis.R script performs the following :**	  
 
 1)  Assign file name to each input file in the folder  getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset folder.
 
@@ -56,7 +57,7 @@ Download the input data into  the current working directory and unzip the folder
 7) Load reshape2 library and use melt and dcast functions to creates a second, independent tidy data set **MergedData** with
    average of each measurement variable for each activity and each subject.
 
-8) Use write.table to output the second Tidy dataset as a txt file **"MergedData.txt"** in the current working directory
+8) Use write.table to output the second Tidy data set as a txt file **"MergedData.txt"** in the current working directory
 
 
 **A github repository is created with the following files :**
@@ -65,7 +66,9 @@ Download the input data into  the current working directory and unzip the folder
 
 2) README.md 		 : explains how the run_analysis.R script works 
 
-3) CodeBook.md 		 : describes the variables, the data, and any transformations or work that you performed to clean up the data 
+3) CodeBook.md 		 : describes the variables, the data, and any transformations or work that you performed to clean up the data
+
+4) MergedData.txt        : the required tidy data set as a txt file   
 
 
 **References :** 
