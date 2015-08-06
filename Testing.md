@@ -45,6 +45,11 @@ Download the input data into  the current directory and unzip the folder as getd
 	ytestrain   :   contains Activity data  
 
 3) Extracts only the measurements on mean() and std() into **xtestrainR**  
+
+	** Note : My intepretation of the course project requirement,
+	"Extracts only the measurements on the mean and standard deviation for each measurement "
+	is to extract ONLY  those features with mean() and std() **
+  
  
 4) Uses descriptive activity names to name the activities in the data set
 

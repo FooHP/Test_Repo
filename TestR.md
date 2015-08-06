@@ -45,7 +45,12 @@ Download the input data into  the current working directory and unzip the folder
 
 	ytestrain   :   contains Activity data  
 
-3) Use grep to extract only the measurements on mean() and std() into **xtestrainR**   
+3) Use grep to extract only the measurements on mean() and std() into **xtestrainR** 
+
+	** Note : My intepretation of the course project requirement,
+	"Extracts only the measurements on the mean and standard deviation for each measurement "
+	is to extract ONLY  those features with mean() and std() **
+  
  
 4) Use gsub to provide descriptive activity names for the activities
 
